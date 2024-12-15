@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework05 shoppingcart</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <div class="main-wrapper">
+
+        <div class="head">
+            
+            <div class='pop-red'></div>
+            <div class="leftlogo">
+                <i class="fa-solid fa-hand-holding"></i>
+                <p><span>Job</span> Passcard</p>
+            </div>
+            <div class="midlink">
+                <a href="#">ABOUT US</a>
+                <a href="#">PASSCARD</a>
+                <a href="#">PROFILE</a>
+            </div>
+            <div class="rightlink">
+                <i class="fa-brands fa-sistrix"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="#">LOGIN</a>
+                <a href="#">SIGN UP</a>
+            </div>
+
+        </div>
+        <h1 class="mycart">My Cart</h1>
+        <div class="content">
+            <div class="order-box">
+                <div class="orderlist">
+                    <i class="fa-regular fa-trash-can"></i>
+                    <div class="picborder">
+                        <img src="https://jobpasscard.com/media/images/passcard_img/GoogleDocPasscard.png" alt="">
+                    </div>
+                    <div class="info-order">
+                        <p>Google Docs</p>
+                        <div class="lowlv">
+                            <p class="circol"> </p>
+                            <p> </p>
+                            <p> </p>
+                            <select id="lv" name="lv">
+                                <option value="LV 1-3">LV 1-3</option>
+                                <option value="LV 2-3">LV 2-3</option>
+                                <option value="LV 3-3">LV 3-3</option>
+                              </select>
+                        </div>
+                        <p>THB 150</p>
+                    </div>
+                </div>
+                <div class="orderlist">
+                    <i class="fa-regular fa-trash-can"></i>
+                    <div class="picborder">
+                        <img src="https://jobpasscard.com/media/images/passcard_img/GoogleSlidePasscard.png" alt="">
+                    </div>
+                    <div class="info-order">
+                        <p>Google Slide</p>
+                        <div class="lowlv">
+                            <p class="circol"> </p>
+                            <p> </p>
+                            <p> </p>
+                            <p> </p>
+                            <select id="lv" name="lv">
+                                <option value="LV 1-3">LV 1-3</option>
+                                <option value="LV 2-3">LV 2-3</option>
+                                <option value="LV 3-3">LV 3-3</option>
+                              </select>
+                        </div>
+                        <p>THB 150</p>
+                    </div>
+                </div>
+            </div>
+            <div class="order-info-box">
+                <h3>Order Info</h3>
+                <div class="lowsub">
+                    <p>Subtotal</p>
+                    <p>THB 300</p>
+                </div>
+                <div class="lowpro">
+                    <i class="fa-solid fa-ticket"></i>
+                    <input type="text" placeholder="Promotion code">
+                    <input class="button" type="button" value="APPLY">
+                </div>
+                <div class="lowtotal">
+                    <p>Total payment</p>
+                    <h2>THB 300</h2>
+                </div>
+                <div class="loginbtn">
+                    <a href="#" target="_blank">LOG IN TO CHECKOUT</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
